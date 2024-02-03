@@ -1,7 +1,10 @@
+<!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <HelloWorld />
+  <Carousel/>
+  <Cards/>
 </template>
 
 <script setup>
-  import HelloWorld from '@/components/HelloWorld.vue'
+  import Carousel from '@/components/Carousel.vue'
+  import Cards from '@/components/Cards.vue'
 </script>
