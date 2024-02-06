@@ -21,7 +21,7 @@
                                 :title="items[1].name"
                             >
                                 <v-expansion-panel-text v-for="(item, index) in items[1].children" :key="index">
-                                    <v-btn variant="text" block>{{ item.name }}</v-btn>
+                                    <v-btn variant="text">{{ item.name }}</v-btn>
                                 </v-expansion-panel-text>
                             </v-expansion-panel>
                         </v-expansion-panels>
@@ -66,10 +66,46 @@
                         <v-divider></v-divider>
                         <v-card-title class="pb-0">Customer Rating</v-card-title>
                         <v-container class="pt-0"  fluid>
-                            <v-checkbox append-icon="mdi-star" label="4 & above" hide-details density="compact"></v-checkbox>
-                            <v-checkbox append-icon="mdi-star" label="3 & above" hide-details density="compact"></v-checkbox>
-                            <v-checkbox append-icon="mdi-star" label="2 & above" hide-details density="compact"></v-checkbox>
-                            <v-checkbox append-icon="mdi-star" label="1 & above" hide-details density="compact"></v-checkbox>
+                            <v-checkbox label="5" hide-details density="compact">
+                                <template v-slot:append>
+                                    <v-icon color="amber-darken-1">mdi-star</v-icon>
+                                    <v-icon color="amber-darken-1">mdi-star</v-icon>
+                                    <v-icon color="amber-darken-1">mdi-star</v-icon>
+                                    <v-icon color="amber-darken-1">mdi-star</v-icon>
+                                    <v-icon color="amber-darken-1">mdi-star</v-icon>
+                                </template>
+                            </v-checkbox>
+                            <v-checkbox label="4" hide-details density="compact">
+                                <template v-slot:append>
+                                    <v-icon color="amber-darken-1">mdi-star</v-icon>
+                                    <v-icon color="amber-darken-1">mdi-star</v-icon>
+                                    <v-icon color="amber-darken-1">mdi-star</v-icon>
+                                    <v-icon color="amber-darken-1">mdi-star</v-icon>
+                                </template>
+                            </v-checkbox>
+                            <v-checkbox label="3" hide-details density="compact">
+                                <template v-slot:append>
+                                    <v-icon color="amber-darken-1">mdi-star</v-icon>
+                                    <v-icon color="amber-darken-1">mdi-star</v-icon>
+                                    <v-icon color="amber-darken-1">mdi-star</v-icon>
+                                </template>
+                            </v-checkbox>
+                            <v-checkbox label="2" hide-details density="compact">
+                                <template v-slot:append>
+                                    <v-icon color="amber-darken-1">mdi-star</v-icon>
+                                    <v-icon color="amber-darken-1">mdi-star</v-icon>
+                                </template>
+                            </v-checkbox>
+                            <v-checkbox label="1" hide-details density="compact">
+                                <template v-slot:append>
+                                    <v-icon color="amber-darken-1">mdi-star</v-icon>
+                                </template>
+                            </v-checkbox>
+                            <v-checkbox label="0" hide-details density="compact">
+                                <template v-slot:append>
+                                    <v-icon color="red">mdi-thumb-down</v-icon>
+                                </template>
+                            </v-checkbox>
                         </v-container>
                         <v-divider></v-divider>
                         <v-card-title class="pb-0">Size</v-card-title>
@@ -100,7 +136,11 @@
                         </v-col>
                     </v-row>
 
+                    <div><br></div>
+
                     <v-divider></v-divider>
+
+                    <div><br></div>
 
                     <v-row class="text-center">
 
@@ -108,7 +148,7 @@
                             <v-hover>
                                 <v-card
                                 class="mx-auto"
-                                color="grey lighten-4"
+                                color="grey-lighten-4"
                                 max-width="600"
                                 >
                                 <v-img
@@ -118,7 +158,7 @@
                                     :src="pro.src"
                                     cover
                                 >
-                                    <v-card-title>{{pro.type}} </v-card-title>
+                                    <v-card-title class="text-white text-center">{{pro.type}} </v-card-title>
                                 </v-img>
                                 <v-card-text class="text-primary">
                                     <div><a href="/product" style="text-decoration: none">{{pro.name}}</a></div>
