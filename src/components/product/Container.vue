@@ -4,7 +4,7 @@
     <div>
         <v-container>
             <v-row>
-                <v-col class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <v-col cols="5">
                     <v-carousel>
                         <v-carousel-item
                             src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
@@ -20,7 +20,7 @@
                         />
                     </v-carousel>
                 </v-col>
-                <v-col class="col-md-7 col-sm-7 col-xs-12">
+                <v-col cols="7">
                     <v-breadcrumbs class="pb-0" :items="breadcrums">
                         <template v-slot:title="{ item }">
                             {{ item.text.toUpperCase() }}
