@@ -1,4 +1,5 @@
 <!-- eslint-disable vue/multi-word-component-names -->
+<!-- eslint-disable vue/no-v-text-v-html-on-component -->
 <template>
     <v-card>
   <v-container fluid>
