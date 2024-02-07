@@ -22,7 +22,7 @@
                             <v-list-item
                             key="1"
                             @click.stop=""
-                            prepend-avatar="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+                            prepend-avatar="../../../public/image/image3.jpg"
                             >
                                 <v-list-item-title >Item 1</v-list-item-title>
                                 <v-list-item-subtitle>Lorem Ipsum</v-list-item-subtitle>
@@ -46,7 +46,7 @@
                             <v-list-item
                             key="1"
                             @click.stop=""
-                            prepend-avatar="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+                            prepend-avatar="../../../public/image/image2.jpg"
                             >
                                 <v-list-item-title >Item 2</v-list-item-title>
                                 <v-list-item-subtitle>Lorem Ipsum</v-list-item-subtitle>

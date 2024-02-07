@@ -1,7 +1,12 @@
 <template>
-  <v-app-bar flat color="primary">
+  <v-app-bar color="primary">
     <v-app-bar-title style="width: 350px">
-      <a href="/" style="color: white; text-decoration: none"><v-icon>mdi-truck</v-icon>&nbsp;ShipIT</a>
+      <a href="/" style="color: yellow; text-decoration: none"><v-avatar
+        size="150"
+        rounded="0"
+      >
+        <img src="../../../public/image/index.png" alt="alt" style="max-width: 100%; max-height: 100%;">
+      </v-avatar></a>
     </v-app-bar-title>
     <v-text-field
         density="compact"
@@ -36,8 +41,3 @@
       </v-btn>
   </v-app-bar>
 </template>
-
-
-<script setup>
-//
-</script>

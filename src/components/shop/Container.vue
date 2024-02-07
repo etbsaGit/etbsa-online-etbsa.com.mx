@@ -242,83 +242,83 @@ const products = ref([
         name: 'BLACK TEE',
         type: 'Jackets',
         price: '18.00',
-        src:"https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+        src: "../../../public/image/image3.jpg"
     },
     {
         id: 2,
         name: 'WHITE TEE',
         type: 'Polo',
         price: '40.00',
-        src:"https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+        src: "../../../public/image/image3.jpg"
     },
     {
         id: 3,
         name: 'Zara limited...',
         type: 'Denim',
         price: '25.00',
-        src:"https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+        src: "../../../public/image/image3.jpg"
     },
     {
         id: 4,
         name: 'SKULL TEE',
         type: 'Jackets',
         price: '30.00',
-        src:"https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+        src: "../../../public/image/image3.jpg"
     },
     {
         id: 5,
         name: 'MANGO WINTER',
         type: 'Sweaters',
         price: '50.00',
-        src:"https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+        src: "../../../public/image/image3.jpg"
     },
     {
         id: 6,
         name: 'SHIRT',
         type: 'Denim',
         price: '34.00',
-        src:"https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+        src: "../../../public/image/image3.jpg"
     },
     {
         id: 7,
         name: 'TRUCKER JACKET',
         type: 'Jackets',
         price: '38.00',
-        src:"https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+        src: "../../../public/image/image3.jpg"
     },
     {
         id: 8,
         name: 'COATS',
         type: 'Jackets',
         price: '25.00',
-        src:"https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+        src: "../../../public/image/image3.jpg"
     }, {
         id: 9,
         name: 'MANGO WINTER',
         type: 'Sweaters',
         price: '50.00',
-        src:"https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+        src: "../../../public/image/image3.jpg"
     },
     {
         id: 10,
         name: 'SHIRT',
         type: 'Denim',
         price: '34.00',
-        src:"https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+        src: "../../../public/image/image3.jpg"
     },
     {
         id: 11,
         name: 'TRUCKER JACKET',
         type: 'Jackets',
         price: '38.00',
-        src:"https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+        src: "../../../public/image/image3.jpg"
     },
     {
         id: 12,
         name: 'COATS',
         type: 'Jackets',
         price: '25.00',
-        src:"https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+        src: "../../../public/image/image3.jpg"
     }
 ]);
  const page = ref(1)

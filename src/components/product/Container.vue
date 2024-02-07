@@ -7,19 +7,19 @@
                 <v-col cols="5">
                     <v-carousel>
                         <v-carousel-item
-                            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+                            src= "../../../public/image/image3.jpg"
                             cover
                         />
                         <v-carousel-item
-                            src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+                            src= "../../../public/image/image3.jpg"
                             cover
                         />
                         <v-carousel-item
-                            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+                            src= "../../../public/image/image3.jpg"
                             cover
                         />
                         <v-carousel-item
-                            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+                            src= "../../../public/image/image3.jpg"
                             cover
                         />
                     </v-carousel>
@@ -127,7 +127,7 @@
                             <v-img
                             class="white-text align-end"
                             height="200px"
-                            src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+                            src= "../../../public/image/image3.jpg"
                             cover
                             >
                             <v-card-title class="text-white text-center">Bags & Purses</v-card-title>
@@ -161,7 +161,7 @@
                             <v-img
                             class="white-text align-end"
                             height="200px"
-                            src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+                            src= "../../../public/image/image3.jpg"
                             cover
                             >
                             <v-card-title class="text-white text-center">Bags & Purses</v-card-title>
@@ -195,7 +195,7 @@
                             <v-img
                             class="white-text align-end"
                             height="200px"
-                            src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+                            src= "../../../public/image/image3.jpg"
                             cover
                             >
                             <v-card-title class="text-white text-center">Bags & Purses</v-card-title>
@@ -229,7 +229,7 @@
                             <v-img
                             class="white-text align-end"
                             height="200px"
-                            src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+                            src= "../../../public/image/image3.jpg"
                             cover
                             >
                             <v-card-title class="text-white text-center">Bags & Purses</v-card-title>
@@ -263,7 +263,7 @@
                             <v-img
                             class="white-text align-end"
                             height="200px"
-                            src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+                            src= "../../../public/image/image3.jpg"
                             cover
                             >
                             <v-card-title class="text-white text-center">Bags & Purses</v-card-title>
@@ -297,7 +297,7 @@
                             <v-img
                             class="white-text align-end"
                             height="200px"
-                            src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+                            src= "../../../public/image/image3.jpg"
                             cover
                             >
                             <v-card-title class="text-white text-center">Bags & Purses</v-card-title>

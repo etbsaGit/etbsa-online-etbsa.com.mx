@@ -1,8 +1,8 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-    <v-carousel hide-delimiters>
+    <v-carousel hide-delimiters class="imagen">
   <v-carousel-item
-    src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+    src="../../../public/image/image3.jpg"
     cover
   >
     <v-row
@@ -15,7 +15,7 @@
     </v-carousel-item>
 
   <v-carousel-item
-    src="https://cdn.vuetifyjs.com/images/cards/hotel.jpg"
+    src="../../../public/image/image3.jpg"
     cover
   >
   <v-row
@@ -28,7 +28,7 @@
 </v-carousel-item>
 
   <v-carousel-item
-    src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+  src="../../../public/image/image3.jpg"
     cover
   >
   <v-row
@@ -41,3 +41,10 @@
 </v-carousel-item>
 </v-carousel>
 </template>
+
+<style>
+.imagen {
+  max-width: auto; /* Ajusta el ancho máximo de la imagen al 100% del contenedor */
+  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la relación de aspecto */
+}
+</style>

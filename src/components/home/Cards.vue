@@ -103,20 +103,20 @@
 import { ref } from 'vue';
 
 const cards = ref([
-    { title: 'Favorite road trips', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 6 },
-    { title: 'Best airlines', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 6 },
+    { title: 'Favorite road trips', src: "../../../public/image/image3.jpg", flex: 6 },
+    { title: 'Best airlines', src: "../../../public/image/image3.jpg", flex: 6 },
 ])
 
 const cards2 = ref([
-    { title: 'Clone', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 4 },
-    { title: 'Favorite road trips', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 4 },
-    { title: 'Best airlines', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 4 },
+    { title: 'Clone', src: "../../../public/image/image3.jpg", flex: 4 },
+    { title: 'Favorite road trips', src: "../../../public/image/image3.jpg", flex: 4 },
+    { title: 'Best airlines', src: "../../../public/image/image3.jpg", flex: 4 },
 ])
 
 const cards3 = ref([
-    { title: 'Clone', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 3, promo:"Upto 60% + Extra 10%",category:"Baggit, Zara, Fossil"},
-    { title: 'Clone2', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 3, promo:"Upto 60% + Extra 10%",category:"Baggit, Zara, Fossil"},
-    { title: 'Favorite road trips', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 3, promo:"Upto 60% + Extra 10%",category:"Baggit, Zara, Fossil" },
-    { title: 'Best airlines', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 3, promo:"Upto 60% + Extra 10%",category:"Baggit, Zara, Fossil" },
+    { title: 'Clone', src: "../../../public/image/image3.jpg", flex: 3, promo:"Upto 60% + Extra 10%",category:"Baggit, Zara, Fossil"},
+    { title: 'Clone2', src: "../../../public/image/image3.jpg", flex: 3, promo:"Upto 60% + Extra 10%",category:"Baggit, Zara, Fossil"},
+    { title: 'Favorite road trips', src: "../../../public/image/image3.jpg", flex: 3, promo:"Upto 60% + Extra 10%",category:"Baggit, Zara, Fossil" },
+    { title: 'Best airlines', src: "../../../public/image/image3.jpg", flex: 3, promo:"Upto 60% + Extra 10%",category:"Baggit, Zara, Fossil" },
 ])
 </script>

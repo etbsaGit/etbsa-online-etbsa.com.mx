@@ -45,8 +45,8 @@ import { ref } from 'vue';
 const lorem = ref('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh venenatis cras sed felis eget velit aliquet sagittis id. Enim praesent elementum facilisis leo vel fringilla est ullamcorper')
 
 const cards2 = ref([
-    { title: 'Clone', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 4, text:lorem },
-    { title: 'Favorite road trips', src: 'https://cdn.vuetifyjs.com/images/cards/road.jpg', flex: 4, text:lorem },
-    { title: 'Best airlines', src: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg', flex: 4, text:lorem },
+  { title: 'Clone', src: "../../../public/image/image3.jpg", flex: 4, text: lorem },
+  { title: 'Favorite road trips', src: "../../../public/image/image3.jpg", flex: 4, text: lorem },
+  { title: 'Best airlines', src: "../../../public/image/image3.jpg", flex: 4, text: lorem },
 ])
 </script>
